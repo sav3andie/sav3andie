@@ -1,0 +1,158 @@
+/* Сброс стандартных стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Навигация */
+header {
+    background-color: #800020;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Главная секция */
+#hero {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #800020;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #f4f4f4;
+}
+
+/* О тренере */
+#about {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Планы */
+#plans {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.plans-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plan-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.plan-item h3 {
+    font-size: 1.5em;
+}
+
+.plan-item p {
+    margin-top: 10px;
+}
+
+/* Контактная форма */
+#contact {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact form button {
+    background-color: #800020;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#contact form button:hover {
+    background-color: #fff;
+    color: #800020;
+}
+
+/* Подвал */
+footer {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
